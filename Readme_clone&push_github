@@ -1,0 +1,15 @@
+# https://dont-be-afraid-to-commit.readthedocs.io/en/latest/git/commandlinegit.html#some-basic-git-operations # Explaination of some of following command can be found in this website.
+
+$ cd /idia/users/haochen
+$ git clone https://github.com/idia-astro/gps-mightee.git # clone gps-mightee to local, get a direcoty of gps-mightee 
+
+$ cd /idia/users/haochen/gps-mightee 
+$ git branch -a # show all the branch
+$ git checkout -b basic-git-operations master # create a new branch basic-git-operations
+$ git checkout master # go back to master branch
+$ git branch -d basic-git-operations # delete the local branch basic-git-operations
+$ git checkout -b basic-git-operations master # create a new branch basic-git-operations, based on existing-branch master
+
+copy Readme_clone&push_github.md (or other script to gps-mightee directory /idia/users/haochen/gps-mightee)
+
+git push origin basic-git-operations
