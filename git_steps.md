@@ -1,6 +1,7 @@
-# Some command lines for cloning, creating branch and pushing
+# Some command lines for cloning, creating a custom branch and pushing it to the repository
 
-# https://dont-be-afraid-to-commit.readthedocs.io/en/latest/git/commandlinegit.html#some-basic-git-operations # Explanation of some of following command can be found in this website.
+#https://dont-be-afraid-to-commit.readthedocs.io/en/latest/git/commandlinegit.html#some-basic-git-operations 
+#Explanation of some of following command can be found in this website.
 
 $ cd /idia/users/aycha
 
@@ -29,11 +30,11 @@ $ git commit -m "Files pushed into Sambatra_branch" # To commit the changes made
 
 $ git push                               # To make changes in your GitHub repo
 
-# If a file was modified
+# If a file was modified and you want to add it to your branch
 
-# Modify the file
+#Modify the file, then
 
-$ git add <file>
+$ git add fileName
 
 $ git commit -m "git_steps.md modified"                                      # always commit before pushing
 
