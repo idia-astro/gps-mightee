@@ -1,15 +1,29 @@
 # https://dont-be-afraid-to-commit.readthedocs.io/en/latest/git/commandlinegit.html#some-basic-git-operations # Explaination of some of following command can be found in this website.
 
-$ cd /idia/users/haochen
+# https://dont-be-afraid-to-commit.readthedocs.io/en/latest/git/commandlinegit.html#some-basic-git-operations # Explaination of some of following command can be found in this website.
+
+# Cloning the gps-mightee repository
+$ cd /idia/users/wanga
 $ git clone https://github.com/idia-astro/gps-mightee.git # clone gps-mightee to local, get a direcoty of gps-mightee 
 
-$ cd /idia/users/haochen/gps-mightee 
-$ git branch -a # show all the branch
-$ git checkout -b basic-git-operations master # create a new branch basic-git-operations
+# Creating a custom branch and pushing to github
+$ cd gps-mightee 
+$ git branch -a # show all the branches
+$ git checkout -b Wanga_branch master # create a new branch Wanga_branch
+$ git checkout -d Wanga_branch # deleting Wanga_branch
+$ git push -u origin Wanga_branch # push the new created branch into github
+$ git init # To initialize in the custom branch 
+
+# Switching to a different branch
 $ git checkout master # go back to master branch
-$ git branch -d basic-git-operations # delete the local branch basic-git-operations
-$ git checkout -b basic-git-operations master # create a new branch basic-git-operations, based on existing-branch master
+$ git checkout Wanga_branch # go back to Wanga_branch
 
-copy Readme_clone&push_github.md (or other script to gps-mightee directory /idia/users/haochen/gps-mightee)
+# Uploading files
+# First copy the file into /idia/users/wanga/gps-mightee
+$ git checkout Wanga_branch # go to branch you want to add files to
+$ git add file_name # add the file
+$ git status # check if you need to commit the file
+$ git commit -m file_name # commit the file
+$ git push -u origin Wanga_branch # push the file to Wanga_branch on github
+$ git push origin Wanga_branch --force # if errors arise
 
-git push origin basic-git-operations
