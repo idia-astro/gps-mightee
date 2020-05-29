@@ -1,7 +1,5 @@
 # https://dont-be-afraid-to-commit.readthedocs.io/en/latest/git/commandlinegit.html#some-basic-git-operations # Explaination of some of following command can be found in this website.
 
-# https://dont-be-afraid-to-commit.readthedocs.io/en/latest/git/commandlinegit.html#some-basic-git-operations # Explaination of some of following command can be found in this website.
-
 # Cloning the gps-mightee repository
 $ cd /idia/users/wanga
 $ git clone https://github.com/idia-astro/gps-mightee.git # clone gps-mightee to local, get a direcoty of gps-mightee 
