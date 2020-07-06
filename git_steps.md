@@ -32,3 +32,4 @@ Modify the file, then:\
 `git add fileName`\
 `git commit -m "git_steps.md modified"`\# always commit before pushing
 `git push -u origin Sambatra_branch`
+## Pull and merge a file into the master branch
