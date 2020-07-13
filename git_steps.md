@@ -17,9 +17,12 @@ Push the new created branch into github:\
 `git push -u origin Sambatra_branch`\
 To initialize in the custom branch:\
 `git init`\
+## Check what have been modified
+`git status`
 ## Adding files on github
 To add files in the custom branch:\
-`git add *` or `git add file`\                   
+`git add *` or `git add file`\
+`git add --all`
 ## Before committing, you need to specify who you are:
 `git config --global user.email "aychasam@gmail.com"`\
 `git config --global user.name "aychasam"`\
